@@ -3,7 +3,6 @@ import os
 import psycopg2
 import csv
 
-from psycopg2 import Error
 
 DB_USER = os.environ.get("PSQL_USER")
 DB_PASS = os.environ.get("PSQL_PASS")
